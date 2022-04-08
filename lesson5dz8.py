@@ -1,5 +1,5 @@
 import random
-height = [random.randint(160, 200) for _ in range(5)]
+height = [random.randint(160, 200) for _ in range(10)]
 height.sort()
 petya = [int(input())]
 if petya[0] in height:
